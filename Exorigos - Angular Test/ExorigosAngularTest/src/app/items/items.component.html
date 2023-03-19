@@ -1,0 +1,37 @@
+<app-item-add-form [popupVisible]="showAddingForm" (popUpClosed)="showAddingForm = false" (submitForm)="addItem($event)"></app-item-add-form>
+<dx-button text="Add Item" (onClick)="openPopup()"></dx-button>
+
+<hr>
+
+<dx-data-grid
+    [dataSource]="items"
+    [showBorders]="true"
+    keyExpr="id"
+    [(selectedRowKeys)]="selectedRows"
+    [focusedRowEnabled]="true"
+    [(focusedRowKey)]="focusedRowKey"
+    [(autoNavigateToFocusedRow)]="autoNavigateToFocusedRow"
+    (onRowUpdated)="updateRow($event)"
+    (onRowRemoved)="removeRow($event)"
+>
+    <dxo-selection mode="single"></dxo-selection>
+    <dxo-filter-row
+    [visible]="true">
+    </dxo-filter-row>
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager
+    [showPageSizeSelector]="true"
+    [allowedPageSizes]="[10, 25, 50, 100]"
+    ></dxo-pager>
+    <dxo-editing
+        mode="row"
+        [allowUpdating]="true"
+        [allowDeleting]="true"
+  >
+    </dxo-editing>
+  <dxi-column dataField="id"  caption="ID" ></dxi-column>
+  <dxi-column dataField="name"  caption="Name" sortOrder="asc"></dxi-column>
+  <dxi-column dataField="description" caption="Description" ></dxi-column>
+  <dxi-column dataField="price"  caption="Price" [allowFiltering]="false"></dxi-column>
+</dx-data-grid>
+

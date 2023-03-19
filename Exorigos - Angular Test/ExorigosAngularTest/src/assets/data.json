@@ -1,0 +1,68 @@
+[
+	{
+		"id": "3cce616f-3448-4924-998b-2a2ba239a68f",
+		"name": "Baileys",
+        "description": "Irish Cream",
+        "price": 42
+	},
+    {
+		"id": "cc776d3c-3ab4-425e-bc19-7e2f42fd93c0",
+		"name": "Pepsi",
+        "description": "Diet, 355 Ml",
+        "price": 5
+	},
+    {
+		"id": "4632f66a-02ad-44af-8990-283f69173fbd",
+		"name": "Cake",
+        "description": "Cheese Cake 9 Inch",
+        "price": 35
+	},
+    {
+		"id": "abca1cb9-a697-43c8-b448-a99674ce1257",
+		"name": "Cucumber",
+        "description": "Pickling Ontario",
+        "price": 3
+	},
+    {
+		"id": "624fb289-c713-4fa1-9c66-42c0583afa91",
+		"name": "Wine",
+        "description": "Chenin Blanc K.w.v.",
+        "price": 15
+	},
+    {
+		"id": "81439ea5-f0c6-4fb7-889f-c018c4962f7e",
+		"name": "Nestea",
+        "description": "Iced Tea",
+        "price": 12
+	},
+    {
+		"id": "a3eab75d-007a-4131-a551-72954546a604",
+		"name": "Beer",
+        "description": "Camerons Auburn",
+        "price": 36
+	},
+    {
+		"id": "fd43e157-8291-451d-a536-bd771b9a5330",
+		"name": "Soup",
+        "description": "Chicken And Wild Rice",
+        "price": 97
+	},
+    {
+		"id": "83833d7d-8233-44c6-bb59-9f8131a00943",
+		"name": "Pepper",
+        "description": "Red Thai",
+        "price": 30
+	},
+    {
+		"id": "98094b09-19ac-4947-b6d5-a35aa554736a",
+		"name": "Cod",
+        "description": "Fillets",
+        "price": 94
+	},
+    {
+		"id": "7de363a6-d8f1-4d95-9101-d22b453cbb01",
+		"name": "Apple",
+        "description": "Red Apple",
+        "price": 7
+	}
+]
